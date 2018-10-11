@@ -29,3 +29,8 @@ line = input().rstrip()
 # リストの要素数を変数に代入
 # リストの中身を出力
 # ランダムに選んだリストの要素を出力
+omikuji = line.split(",")
+num = len(omikuji)
+print(omikuji)
+kekka = random.randrange(num)
+print(omikuji[kekka])
